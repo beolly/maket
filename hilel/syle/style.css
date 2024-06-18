@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  color: #19191c;
+  background: #efeff2;
+  font: 400 18px/28px "Inter", sans-serif;
+}
+.container {
+  padding: 0 15px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0 0;
+}
+.header-box {
+  padding-left: 120px;
+  display: flex;
+  gap: 68px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.btn-box {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: #19191c;
+}
+
+.head-link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #19191c;
+}
+.head-btn {
+  background: #000000;
+  color: #efeff2;
+  padding: 16px 37px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  margin: 0 0 10px;
+}
+.button {
+  background-color: #504dee;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 75px 250px;
+
+  background: url(/img/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients\ 1.png)
+    100% 67% no-repeat;
+  background-size: 45%;
+}
+.offer__sale {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 78px;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+.offer-time {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 0;
+}
+.offr-hold {
+  margin-top: 20px;
+
+  width: 648px;
+  background: url(/img/Ellipse\ 21.png) 100% 100% no-repeat;
+}
+.offer__description {
+  margin: 32px 0;
+}
+.dur {
+  font-weight: bold;
+  padding-bottom: 28px;
+}
+.offer__list {
+  align-self: flex-end;
+  list-style: none;
+  padding: 0;
+
+  margin-left: 154px;
+  flex-grow: 1;
+  position: relative;
+}
+.offer__tittle {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+  margin: 0;
+}
+.item {
+  position: absolute;
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.offer-mark {
+  bottom: 370px;
+  right: 80px;
+}
+.offer-ill {
+  top: -60 px;
+  left: -230px;
+}
+.offer-anim {
+  bottom: 450px;
+  left: 120px;
+}
+.offer-rogr {
+  bottom: 350px;
+  left: -130px;
+}
+.offer-design {
+  bottom: 120px;
+  left: -180px;
+}
+.offer-foo {
+  bottom: 250px;
+  left: -120px;
+}
+.learn {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 168px 240px ; */
+}
+.learn__title {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 600;
+  margin: 0;
+  height: 140px;
+  width: 568px;
+}
+.learn__count-price {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 600;
+  margin: 0;
+}
+.learn__text {
+  width: 588px;
+}
+.learn__counters-numb {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.learn__counters {
+  display: flex;
+  gap: 68px;
+}
+.cards {
+  text-align: left;
+
+  padding: 168px 75px 177px;
+}
+.disc__cards {
+  justify-content: space-between;
+  display: none;
+  align-items: flex-start;
+}
+.disc__cards.active {
+  display: flex;
+}
+.disc__cards-item {
+  margin: 20px;
+  padding: 32px;
+  width: 467px;
+  height: 329px;
+}
+
+.blue {
+  background-color: #deefe4;
+}
+.rosy {
+  background-color: #f3f3d7;
+}
+.pink {
+  background-color: #efdeee;
+}
+.hr {
+  display: inline-block;
+  margin-left: 7px;
+  color: #706d6d;
+}
+.hr.active {
+  color: #000;
+}
+
+
+.price__cards {
+  display: flex;
+  justify-content: space-between;
+
+}
+.price__cards-item {
+  background-color: #deefe4;
+padding: 48px 68px;
+  width: 467px;
+  margin: 22px;
+
+}
+.price__cards-mtitle {
+  line-height: 80px;
+  font-size: 58px;
+  width: 558px;
+margin-bottom: 100px;
+}
+li,ul{
+  margin: 0;
+}
+.price__cards-title {
+  margin: 48px 0;
+}
+.price__cards-item.act {
+  background-color: #504dee;
+  color: #FBFBFC;
+}
+.price-list{
+  padding: 18px;
+  padding-bottom: 116px;
+}
+.price-li{
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+.price__card-price{
+  font-size: 24px;
+  padding: 18px 0;
+  color: #6D6D77;
+}
+p{
+  margin: 0;
+}
+.price__card-half{
+font-weight: 800;
+font-size: 58px;
+}
+
+.price-button{
+  color: #FBFBFC;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  border: none;
+  margin: 18px 0;
+
+  font-weight: 600;
+  background-color: #19191C;
+  text-align: center;
+  padding: 12px ;
+}
+.price-button.act{
+  color: #504dee;
+  font-style: 24px;
+  background-color: #FBFBFC;
+  
+ padding-top: 12px;
+}
+.price__card-price.act{
+color: #FBFBFC;
+}
+@media screen and (max-width: 1439px) {
+  .container {
+    width: auto;
+  }
+  .learn__count-item, .footer-box{
+    flex: 1 1 100%;
+  }
+  .learn__counters,
+  .disc__cards,
+  .nav-list,
+  .btn-box.lern-cont,
+  .learn ,.price__cards,.sitemap__list,.footer{
+    flex-wrap: wrap;
+  }
+
+  .learn__counters-numb {
+    margin: 10px 0;
+  }
+  .learn_txt {
+    width: auto;
+  }
+}
+hr {
+  border: 2px solid;
+}
+
+
+.footer {
+  background: #19191c;
+  width: 1900px;
+  display: flex;
+  margin: 68px 0 0;
+  padding: 68px 118px;
+}
+.footer-box {
+  width: 255px;
+  height: 156px;
+  text-decoration: none;
+  margin:  0 auto;
+  margin-right: 146px;
+}
+a{
+  padding: 0 auto;
+  margin: 0 auto;
+  text-decoration: none;
+  color: inherit;
+}
+.footer-box-link {
+  color: #efeff2;
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  display: flex;
+  margin: 24px 0;
+}
+.sitemap {
+  display: flex;
+  gap: 146px;
+  width: 1440px;
+  color: #efeff2;
+  text-decoration: none;
+}
+.sitemap__tittle {
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 24px 0;
+}
+.sitemap__list {
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+ 
+}
+
+.footer-link {display: flex;
+  margin: 24px 0;
+}
+.copyright {
+    color: #6d6d77;
+  text-decoration: none;
+}
+
+
+.footer-link-copy {
+ 
+
+}
